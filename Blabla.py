@@ -14,8 +14,7 @@ async def on_ready():
 @bot.command()
 async def brainrot(ctx):
     brainrotList = ["Meray", "Popoy", "Alpasin", "Alpablanc", "Berere"]
-    randomIndex = random.randint(1, len(brainrotList))
-    brainrotFinal = brainrotList[randomIndex]
+    brainrotFinal = random.choice(brainrotList)
     await ctx.send(f"Your random number is {brainrotFinal}")
 
 import os

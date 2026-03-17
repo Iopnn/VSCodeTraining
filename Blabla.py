@@ -13,9 +13,10 @@ async def on_ready():
 
 @bot.command()
 async def brainrot(ctx):
-    brainrotList = []
+    brainrotList = ["Meray", "Popoy", "Alpasin", "Alpablanc", "Berere"]
     randomIndex = random.randint(1, len(brainrotList))
     brainrotFinal = brainrotList[randomIndex]
     await ctx.send(f"Your random number is {brainrotFinal}")
 
-bot.run("TOKEN")
+import os
+bot.run(os.getenv("TOKEN"))

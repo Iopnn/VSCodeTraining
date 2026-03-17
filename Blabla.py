@@ -19,4 +19,10 @@ async def brainrot(ctx):
     await ctx.send(f"Your random number is {brainrotFinal}")
 
 import os
-bot.run(os.getenv("TOKEN"))
+
+token = os.getenv("TOKEN")  # Make sure TOKEN is set in your environment
+if token is None:
+    raise ValueError("No Discord bot token found in environment variables")
+
+print("TOKEN:", token[:5], "..." if token else "None")
+bot.run(token)

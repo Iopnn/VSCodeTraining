@@ -12,6 +12,10 @@ async def on_ready():
     print(f"Logged in as {bot.user}")
 
 @bot.command()
+async def help(ctx):
+    await ctx.send("1- brainrot, 2- alpasin, 3- fuckjews, 4- meray")
+
+@bot.command()
 async def brainrot(ctx):
     brainrotList = ["Meray", "Popoy", "Alpasin", "Alpablanc", "Berere"]
     brainrotFinal = random.choice(brainrotList)

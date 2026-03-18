@@ -45,7 +45,6 @@ async def sixseven(ctx):
 async def triplet(ctx):
     await ctx.send("Tung tung tung sahur")
 
-
 import os
 
 token = os.getenv("TOKEN")  # Make sure TOKEN is set in your environment

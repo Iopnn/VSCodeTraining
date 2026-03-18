@@ -37,6 +37,15 @@ async def meray(ctx):
 async def quoi(ctx):
     await ctx.send("feur")
 
+@bot.command()
+async def sixseven(ctx):
+    await ctx.send("67")
+
+@bot.command()
+async def triplet(ctx):
+    await ctx.send("Tung tung tung sahur")
+
+
 import os
 
 token = os.getenv("TOKEN")  # Make sure TOKEN is set in your environment

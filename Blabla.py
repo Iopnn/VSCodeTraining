@@ -17,6 +17,18 @@ async def brainrot(ctx):
     brainrotFinal = random.choice(brainrotList)
     await ctx.send(f"Your random number is {brainrotFinal}")
 
+@bot.command()
+async def alpasin(ctx):
+    await ctx.send("Fuck les alpasin")
+
+@bot.command()
+async def fuckjews(ctx):
+    await ctx.send("Fuck the fucking jews")
+
+@bot.command()
+async def meray(ctx):
+    await ctx.send("Popoy ay ay magazine")
+
 import os
 
 token = os.getenv("TOKEN")  # Make sure TOKEN is set in your environment

@@ -45,6 +45,11 @@ async def sixseven(ctx):
 async def triplet(ctx):
     await ctx.send("Tung tung tung sahur")
 
+@bot.command()
+async def jew(ctx):
+    file = discord.File("axeljew.jpg")
+    await ctx.send(file=file)
+
 import os
 
 token = os.getenv("TOKEN")  # Make sure TOKEN is set in your environment

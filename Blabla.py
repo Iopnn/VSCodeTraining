@@ -23,7 +23,7 @@ async def brainrot(ctx):
 
 @bot.command()
 async def alpasin(ctx):
-    await ctx.send("Fuck les alpasin")
+    await ctx.send("Fuck les alpasin et les alpablanc")
 
 @bot.command()
 async def fuckjews(ctx):

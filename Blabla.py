@@ -13,23 +13,19 @@ async def on_ready():
 
 @bot.command()
 async def help(ctx):
-    await ctx.send("1- brainrot, 2- alpasin, 3- fuckjews, 4- meray")
+    await ctx.send("1- brainrot, 2- alpasin, 3- fuckjews, 4- meray, fuck niggers")
 
-@bot.command()
 async def brainrot(ctx):
     brainrotList = ["Meray", "Popoy", "Alpasin", "Alpablanc", "Berere"]
     brainrotFinal = random.choice(brainrotList)
     await ctx.send(f"Your random number is {brainrotFinal}")
 
-@bot.command()
 async def alpasin(ctx):
     await ctx.send("Fuck les alpasin et les alpablanc")
 
-@bot.command()
 async def fuckjews(ctx):
     await ctx.send("Fuck the fucking jews")
 
-@bot.command()
 async def meray(ctx):
     await ctx.send("Popoy ay ay magazine")
 

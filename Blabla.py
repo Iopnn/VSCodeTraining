@@ -19,7 +19,7 @@ async def commands_list(ctx):
 async def brainrot(ctx):
     brainrotList = ["Meray", "Popoy", "Alpasin", "Alpablanc", "Berere"]
     brainrotFinal = random.choice(brainrotList)
-    await ctx.send(f"Your random number is {brainrotFinal}")
+    await ctx.send(f"Your random brainrot is {brainrotFinal}")
 
 @bot.command()
 async def alpasin(ctx):
@@ -32,6 +32,10 @@ async def fuckjews(ctx):
 @bot.command()
 async def meray(ctx):
     await ctx.send("Popoy ay ay magazine")
+
+@bot.command()
+async def quoi(ctx):
+    await ctx.send("feur")
 
 import os
 
